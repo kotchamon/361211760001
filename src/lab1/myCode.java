@@ -8,6 +8,8 @@ public class myCode {
         System.out.println("Kotchamon  ketin");
         System.out.println("361211760001");
         System.out.println("MIT211");
+        System.out.println("MOMAY");
+
 
 
 
