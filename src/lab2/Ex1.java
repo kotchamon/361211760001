@@ -12,7 +12,7 @@ public class Ex1 {
         System.out.println(y);
         int t = X+y;
         System.out.println(t);
-        System.out.println(y-X);
+
 
 
 
