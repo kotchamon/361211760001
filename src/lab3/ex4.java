@@ -1,6 +1,9 @@
 package lab3;
 
-public class Ex4 {
+import java.util.Scanner;
+
+public class ex4 {
+
     public static void main(String[] args) {
 
         int select;
@@ -13,14 +16,14 @@ public class Ex4 {
         Scanner input = new Scanner(System.in);
 
         System.out.println("เลือกหมายเลข (1-4):  ");
-        select = intput.nextInt();
+        select = input.nextInt();
         //switch-case
         switch (select){
             case 1: System.out.println("คุฯชอบ Accounting");break;
             case 2: System.out.println("คุฯชอบ Marketing");break;
             case 3: System.out.println("คุฯชอบ System Analysis");break;
             case 4: System.out.println("คุฯชอบ Computer Programming");break;
-            default: System.out.println("กรุณาเลือกหมายลข 1-4 เท่านั้น")
+            default: System.out.println("กรุณาเลือกหมายลข 1-4 เท่านั้น");
 
         }
 
@@ -28,18 +31,5 @@ public class Ex4 {
 
 
     }  //main
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
