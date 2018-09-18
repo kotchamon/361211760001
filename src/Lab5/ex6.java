@@ -1,5 +1,7 @@
 package Lab5;
 
+import java.util.StringTokenizer;
+
 public class ex6 {
     public static void main(String[] args) {
 
@@ -17,5 +19,10 @@ public class ex6 {
         System.out.println(myStr2);
         myStr2.reverse();
         System.out.println(myStr2);
+
+        //StringTokenizer
+        StringTokenizer mystr3 = new StringTokenizer("Hello, my name is momay");
+        int count = mystr3.countTokens();
+        System.out.println(count);
     }
 }
