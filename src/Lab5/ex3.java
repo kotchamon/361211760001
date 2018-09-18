@@ -3,25 +3,36 @@ package Lab5;
 import java.util.Scanner;
 
 public class ex3 {
+    private static final Object ShowData = ;
     public static void main(String[] args) {
-         Scanner  Scanner  = new Scanner(System.in);
-        int[] num = new int[5]; //default =0
-        System.out.print("Please, input integers to array.");
-        //input
+        System.out.println("Input data to Array 2D: ");
+        //Create array
+        int [][] num = new int[2][3]; //2 Rows and 3 columns = 6 elements
+
+       num = inputData (num);
+       ShowData (num);
+    }//main
+
+    private static void ShowData(int[][] num) {
         for (int i = 0; i < num.length; i++) {
-            System.out.print("Enter integer" + (i + 1) + ":");
-            num[i] = Scanner.nextInt();
+            for (int j = 0; j < num[i].length; j++);{
 
-            showData(num);
+                System.out.println(num[i][j]+"  ");
+            }
+            System.out.println();
         }
+    }//ShowData
 
+    private static int inputData(int[][] num) {
+        Scanner sc = new Scanner(System.in);
 
-
+        for (int i = 0; i < num.length; i++){
+            for (int j = 0; j < num [i].length; j++){
+                System.out.println("Enter integers:  ");
+                num [i] [j] = sc.nextInt();
+            }
+        }
+        return num;
     }
 
-    private static void showData(int[] num) {
-        for (int val : num) {
-            System.out.print(val + "");
-        }
-    }
-}
+}//class
