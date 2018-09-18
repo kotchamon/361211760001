@@ -15,8 +15,9 @@ public class ex4 {
 
         myList.add(2,"momay");
         System.out.println(myList);
-        myList.remove(0:"ben");
+        myList.remove("ben");
         System.out.println(myList);
+        System.out.println(myList.indexOf("som"));
 
     }
 }
