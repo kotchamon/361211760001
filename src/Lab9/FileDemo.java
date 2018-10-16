@@ -27,8 +27,8 @@ public class FileDemo {
     private static void writeMyFile() {
         Writer w = null;
         try {
-            w = new FileWriter("C:\\Users\\User\\IdeaProjects\\361211760001\\src\\Lab9\\mit.txt");
-            String content = "MIT SAIYAI 2018";
+            w = new FileWriter("C:\\Users\\User\\IdeaProjects\\361211760001\\src\\Lab9\\mit.txt",true);
+            String content = "MIT SAIYAI 2018 \r\n";
             w.write(content);
             System.out.println("Done");
         } catch (IOException ex) {
